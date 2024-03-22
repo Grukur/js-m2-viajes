@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+#bodycss {
+    scroll-behavior: smooth;     
+}
+
+.card img {
+    max-height: 150px;
+}
+
+.carousel-item img {
+    max-height: 100vh;
+}
+
+.custom-tooltip1 {
+    --bs-tooltip-bg: orange;
+    --bs-tooltip-color: black;
+  }
+.custom-tooltip2 {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+
+  img {
+    aspect-ratio: 3/2;
+  }
